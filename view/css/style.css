@@ -1,0 +1,54 @@
+html {
+    font-family: Arial;
+}
+
+.navigator ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.navigator ul li{
+    list-style: none;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.navigator {
+    background-color: #B9013A;
+    padding: 5px 0;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url('../img/banner2.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -300px;
+}
+
+.text-banner p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.text-banner {
+    color: #ffff;
+    padding-top: 5%;
+}
+
+.btn {
+    background-color: #B9013A;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+}
